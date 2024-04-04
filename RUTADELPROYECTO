@@ -1,0 +1,21 @@
+"BILLETERA VIRTUAL ALKE"
+Paso a paso a seguir para llevar a cabo el proyecto:
+1. Planificación del Proyecto:
+Revisar detalladamente los requerimientos proporcionados y asegurarse de comprender completamente lo que se espera de la aplicación.
+Definir un cronograma de desarrollo que incluya hitos importantes y plazos para cada etapa del proyecto.
+2. Diseño de la Arquitectura:
+Diseñar la arquitectura de la aplicación, decidiendo cómo se organizarán los componentes y cómo interactuarán entre sí.
+3. Creación de Diagramas de Clase:
+Utilizar herramientas adecuadas para crear diagramas de clase que representen la estructura de la aplicación.
+(Verificar que los diagramas reflejen la relación entre las diferentes clases y cómo se relacionan con los requerimientos).
+4. Desarrollo del Backend:
+Utilizar Java y el paradigma orientado a objetos para implementar la lógica del negocio.
+Crear interfaces para reutilizar código y mejorar la mantenibilidad.
+Desarrollar las funciones necesarias para la administración de fondos, incluyendo la creación de cuentas, visualización de saldo, ingreso y retiro de dinero.
+Implementar la conversión de moneda según los requerimientos.
+5. Pruebas Unitarias:
+En lo posible desarrollar pruebas unitarias para cada componente de la aplicación.
+(Utilizar herramientas de pruebas unitarias de Java, como JUnit, para garantizar la calidad y el correcto funcionamiento del código).
+6. Implementación y Pruebas:
+Integrar todos los componentes y realizar pruebas integrales para verificar el funcionamiento de la aplicación en su conjunto.
+Realizar pruebas de usuario para asegurar que la aplicación sea fácil de usar y cumpla con las expectativas de los usuarios.
