@@ -1,0 +1,55 @@
+Requerimientos :
+La aplicación "Alke Wallet" deberá cumplir con una serie de requisitos y
+especificaciones técnicas para garantizar su funcionalidad y calidad.
+Requerimientos generales y técnicos:
+
+Requerimientos generales:
+● Administración de fondos: El programa debe permitir crear una
+cuenta, ver su saldo disponible, realizar ingreso y retiro de dinero
+(debe impactar sobre el saldo actual).
+● Conversión de moneda: El programa debe permitir convertir el
+saldo de un tipo de moneda a otra.
+
+Requerimientos técnicos/específicos:
+● Backend: Java implementando el paradigma orientado a objetos
+para desarrollar y gestionar la lógica del negocio. Utilizar interfaces
+para reutilización de código.
+● Diagramas de clase: Representar en un Diagrama de Clases el
+modelo de clases que da solución a los requerimientos.
+● Pruebas unitarias: Se realizarán pruebas unitarias para garantizar la
+calidad y el correcto funcionamiento de los componentes
+desarrollados.
+
+
+¿Qué se va a validar?
+Con el fin de garantizar la calidad y el éxito del proyecto "AlkeWallet", se evaluarán
+varios aspectos clave del producto
+
+○ Aspectos técnicos:
+■ Legibilidad del código: Se evaluará la claridad y organización
+del código desarrollado, asegurando buenas prácticas de
+programación y facilidad de mantenimiento.
+■ Documentación: Se verificará que el proyecto esté
+correctamente documentado, incluyendo comentarios en el
+código, explicaciones de funcionalidades y documentación
+técnica adicional según sea necesario.
+
+○ Aspectos estructurales:
+■ Cumplimiento de los requerimientos: Se evaluará si todas las
+funcionalidades requeridas han sido implementadas de
+acuerdo con los requisitos establecidos.
+
+■ Calidad del proyecto: Se analizará la calidad del código, la
+estructura de la base de datos, la seguridad implementada y
+otros aspectos técnicos para garantizar un proyecto robusto y
+confiable.
+
+○ Aspectos de performance:
+■ Gestión del tiempo: Se considerará la capacidad para cumplir
+con los plazos establecidos y gestionar eficientemente el
+tiempo asignado para las diferentes tareas y etapas del
+proyecto.
+
+■ Diseño y desarrollo del proyecto: Se evaluará la calidad
+general de la presentación final, incluyendo la demostración
+de habilidades en desarrollo.
