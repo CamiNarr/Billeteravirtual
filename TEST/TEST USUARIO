@@ -1,0 +1,51 @@
+
+package cl.billetera.clases.usuario;
+
+        import org.junit.jupiter.api.BeforeEach;
+        import org.junit.jupiter.api.Test;
+
+        import java.util.Random;
+
+        import static org.junit.jupiter.api.Assertions.assertFalse;
+        import static org.junit.jupiter.api.Assertions.assertTrue;
+
+class Usuariotest {
+
+    Usuario Usuariotest;
+
+    @BeforeEach
+    public void setUp() throws Exception {
+        Usuariotest = new Usuario();
+        Usuario.setNombreUsuario("alguien");
+        Usuario.setRutUsuario("11111111-1");
+        Usuario.setIdUsuario("01234567890");
+        Usuario.setPassword("1234567890");
+        Usuario.setCorreoElectronico("alguien@dominio.com");
+
+
+    }
+
+
+    @Test
+    void verificarMayoriaEdadUsuario() {
+        boolean esMayorEdad = Usuariotest.verificarMayoriaEdadUsuario(19);
+        assertTrue(Usuariotest.isIsMayorEdad());
+    }
+
+    @Test
+    void verificarMinoriaEdadUsuario() {
+        boolean esMenorEdad = Usuariotest.verificarMayoriaEdadUsuario(17);
+        assertFalse(Usuariotest.isIsMayorEdad());
+    }
+
+    @Test
+    void verificarEdadValida() {
+        boolean edadValida = Usuariotest.verificarMayoriaEdadUsuario(121);
+        assertFalse(Usuariotest.isIsMayorEdad());
+    }
+
+
+
+}
+
+
