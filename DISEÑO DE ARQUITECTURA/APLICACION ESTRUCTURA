@@ -1,0 +1,20 @@
+Clases Principales:
+1. Usuario: Representa a un usuario de la aplicación.
+2. Cuenta: Representa la cuenta de un usuario en la billetera digital.
+3. Conversor: Clase para manejar la conversión de moneda.
+
+Atributos y Métodos Relevantes:
+1. Usuario:
+Atributos: username, password, email, etc.
+Métodos: login(), logout(), etc.
+2. Cuenta:
+Atributos: accountId, balance, currency, etc.
+Métodos: deposit(), withdraw(), etc.
+
+3. Conversor:
+Métodos: convert(), getExchangeRate(), etc.
+
+Relaciones entre Clases:
+Usuario tiene una relación con Cuenta (un usuario puede tener múltiples cuentas).
+
+Conversor será utilizado por Cuenta para realizar conversiones de moneda.
